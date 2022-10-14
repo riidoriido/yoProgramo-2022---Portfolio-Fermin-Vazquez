@@ -1,0 +1,50 @@
+/* Nav Bar Styles */
+
+nav {
+  background-color: #162d54;
+}
+.navbar img {
+  height: 55px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.navbar-light .navbar-toggler {
+  filter: invert(1);
+}
+
+@media (max-width: 393px) {
+  .navbar img {
+    display: none;
+  }
+}
+
+#navbarNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.nav-link {
+  color: white;
+}
+#navbarNav li a {
+  color: azure;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  justify-content: space-between;
+  width: 80%;
+}
+@media (max-width: 991px) {
+  ul.navbar-nav {
+    display: none;
+  }
+}
+
+.btn {
+  --bs-btn-padding: 0.25rem;
+  background-color: #162d54;
+}

@@ -1,0 +1,61 @@
+.educacionctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 2%;
+}
+
+ul {
+  padding: 0px;
+  margin: 0%;
+}
+
+.instituto {
+  width: -webkit-fill-available;
+}
+
+.instituto img {
+  width: 50%;
+}
+
+.list-group {
+  --bs-list-group-bg: ##edfaf7;
+}
+
+.conocimientos {
+  width: 70%;
+}
+
+.conocimientos ul {
+  margin: 5%;
+}
+.educacion-p,
+.apps {
+  width: 100%;
+}
+
+.apps {
+  text-align: center;
+}
+
+.adobeli {
+  display: flex;
+}
+
+.adobeli li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.adobeli img {
+  width: 25%;
+  margin: 5%;
+}
+
+.adobeli p {
+  margin: 0%;
+}

@@ -1,0 +1,35 @@
+/* .bio-ctn {
+  background-image: url(../../../assets/fotos/bg-about2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+.container-fluid {
+  padding: 2%;
+}
+
+.container-fluid img {
+  width: 100%;
+  position: relative;
+  box-shadow: 2px 2px 7px 1px #2e211d;
+}
+
+.bio-p {
+  justify-items: center;
+  text-align: center;
+  margin: 5%;
+  line-height: 1.7;
+}
+
+.biotextoctn {
+  width: 80%;
+}
+
+.biotextoctn h1 {
+  text-align: center;
+  font-family: auto;
+  font-variant-caps: all-petite-caps;
+  margin-top: 2%;
+}

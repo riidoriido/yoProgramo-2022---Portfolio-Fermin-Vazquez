@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="calcular presupuesto" />
+    <link rel="stylesheet" href="presupuesto.component.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="presupuesto">
+      <h5>Calcula tu presupuesto acá↓</h5>
+      <div class="d-grid gap-2" id="contenedor">
+        <button class="btn btn-dark" id="listabtn1" type="button">
+          Lista de servicios
+        </button>
+        <button class="btn btn-dark" id="presupuestobtn2" type="button">
+          Consultar presupuesto
+        </button>
+        <button class="btn btn-dark" id="contactobtn3" type="button">
+          Contacto
+        </button>
+      </div>
+    </div>
+    <div class="d-flex gap-2" id="ctnconsulta">
+      <button
+        class="btn btn-dark dropdown-toggle w-50"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        id="historial"
+      >
+        Historial
+      </button>
+      <ul class="dropdown-menu w-25" id="dropdownHist"></ul>
+      <button class="btn btn-secondary w-50" id="borrarHist">Borrar</button>
+    </div>
+    <div id="valorhr"></div>
+    <div id="jsontest"></div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("mK4RBzNdGdhYjQu1Y");
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

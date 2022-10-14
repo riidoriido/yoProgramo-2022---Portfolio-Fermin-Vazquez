@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  padding: 15%;
+}
+.listactn,
+.presupuestoCalc {
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.accordion-header {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: medium 500;
+}
+
+.d-grid {
+  padding: 5%;
+}
+#ctnconsulta {
+  padding: 5%;
+  display: flex;
+}
+
+#dropdownHist {
+  text-align: center;
+  font-size: 14px;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 2px 2px 8px 0px rgba(48, 49, 38, 0.5);
+}
+
+#itemlista {
+  padding: 0.5%;
+  border: 1px, solid, gray;
+  box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.77);
+  width: 100%;
+}
+
+.accordion-item {
+  box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.77);
+}
+
+#p {
+  color: white;
+  text-align: center;
+}
+
+button {
+  box-shadow: 2px 2px 8px 0px rgba(48, 49, 38, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+#valorhr {
+  text-align: center;
+  margin: 5%;
+}

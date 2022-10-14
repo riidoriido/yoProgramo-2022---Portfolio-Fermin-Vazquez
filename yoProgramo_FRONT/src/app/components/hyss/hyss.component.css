@@ -1,0 +1,17 @@
+h5 {
+  text-align: center;
+  padding: 2%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+#hyss {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+}
+
+.circle {
+  width: 100%;
+  text-align: center;
+}
