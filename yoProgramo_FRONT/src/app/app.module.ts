@@ -18,6 +18,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { HyssComponent } from './components/hyss/hyss.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PresupuestoComponent } from './components/presupuesto/presupuesto.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { PresupuestoComponent } from './components/presupuesto/presupuesto.compo
     NgCircleProgressModule.forRoot({
       showSubtitle: true,
     }),
+    HttpClientModule,
   ],
   providers: [CargaJsService],
   bootstrap: [AppComponent],
