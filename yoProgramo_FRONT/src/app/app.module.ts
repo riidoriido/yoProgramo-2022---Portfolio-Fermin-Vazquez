@@ -19,6 +19,7 @@ import { HyssComponent } from './components/hyss/hyss.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PresupuestoComponent } from './components/presupuesto/presupuesto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     BioComponent,
     PresupuestoComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
