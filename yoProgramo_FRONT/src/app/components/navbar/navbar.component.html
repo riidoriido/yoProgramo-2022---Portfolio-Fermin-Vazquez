@@ -38,8 +38,17 @@
         class="btn btn-outline-light btn-sm"
         type="button"
         (click)="login()"
+        *ngIf="!isLogged"
       >
-        Ingreso💻
+        Ingreso🔑
+      </button>
+      <button
+        class="btn btn-outline-light btn-sm"
+        type="button"
+        (click)="onLogOut()"
+        *ngIf="isLogged"
+      >
+        Salir🔑
       </button>
     </div>
   </div>

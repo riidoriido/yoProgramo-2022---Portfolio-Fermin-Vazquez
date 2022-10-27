@@ -20,6 +20,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PresupuestoComponent } from './components/presupuesto/presupuesto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
+import { interceptorProvider } from './service/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,7 @@ import { LoginComponent } from './components/login/login.component';
     LoginComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
@@ -46,7 +49,7 @@ import { LoginComponent } from './components/login/login.component';
     }),
     HttpClientModule,
   ],
-  providers: [CargaJsService],
+  providers: [CargaJsService, interceptorProvider],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
