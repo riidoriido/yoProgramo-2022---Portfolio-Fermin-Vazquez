@@ -1,3 +1,30 @@
-#carouselExperiencia {
+#experienciactn {
   padding: 2%;
+  margin: 0% 0%;
+  width: 100%;
+  text-align: -webkit-center;
+}
+
+.container-lg {
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+#card-title {
+  margin: 1rem 0.2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#card-text {
+  margin: 1rem 0.2rem;
+  text-align: justify;
+}
+
+h4 {
+  width: 100%;
+}
+
+.btn-group {
+  opacity: 0.3;
 }

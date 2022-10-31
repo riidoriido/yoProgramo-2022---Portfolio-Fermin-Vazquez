@@ -8,7 +8,7 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./bio.component.css'],
 })
 export class BioComponent implements OnInit {
-  persona: persona = new persona('', '', '');
+  persona: persona = new persona('', '', '', '');
 
   constructor(public personaService: PersonaService) {}
 

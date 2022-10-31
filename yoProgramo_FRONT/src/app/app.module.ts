@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BioComponent } from './components/bio/bio.component';
-import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -22,6 +21,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { NewEducacionComponent } from './components/educacion/new-educacion.component';
+import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,6 @@ import { interceptorProvider } from './service/interceptor-service';
     NavbarComponent,
     BioComponent,
     ExperienciaComponent,
-    EducacionComponent,
     SkillsComponent,
     HyssComponent,
     ProjectsComponent,
@@ -39,6 +42,11 @@ import { interceptorProvider } from './service/interceptor-service';
     BioComponent,
     PresupuestoComponent,
     LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    EducacionComponent,
+    NewEducacionComponent,
+    EditEducacionComponent,
   ],
   imports: [
     FormsModule,

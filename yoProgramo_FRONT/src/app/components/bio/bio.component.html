@@ -1,14 +1,9 @@
 <div class="container-fluid d-flex bio-ctn" id="bio">
   <div class="fotoctn" id="fotoctn">
-    <img src="../../../assets/profilepic.jpg" alt="Fermin Vazquez" />
+    <img src="{{ persona.img }}" alt="Fermin Vazquez" />
   </div>
   <div class="biotextoctn">
     <h1>{{ persona.nombre }} {{ persona.apellido }}</h1>
-    <p class="bio-p">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, numquam
-      aliquid, corporis ipsum rerum totam eaque earum ea sunt quo sequi
-      accusantium ab necessitatibus distinctio magni, atque illo nulla.
-      Voluptas.
-    </p>
+    <p class="bio-p">{{ persona.bio }}</p>
   </div>
 </div>

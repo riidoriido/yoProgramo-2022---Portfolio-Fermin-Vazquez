@@ -1,0 +1,45 @@
+<div class="container" id="expnuevactn">
+  <div class="row">
+    <div>
+      <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+        <div class="form-group green-border-focus">
+          <label for="nuevaExperiencia">Cargar nueva experiencia</label>
+          <textarea
+            class="form-control"
+            id="nombreE"
+            rows="3"
+            placeholder="Título"
+            name="nombreE"
+            [(ngModel)]="nombreE"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group green-border-focus">
+          <textarea
+            class="form-control"
+            id="descripcionE"
+            rows="3"
+            placeholder="Descripción"
+            name="descripcionE"
+            [(ngModel)]="descripcionE"
+            required
+          ></textarea>
+          <div class="form-group green-border-focus">
+            <textarea
+              class="form-control"
+              id="imgE"
+              rows="3"
+              placeholder="URL de la imagen"
+              name="imgE"
+              [(ngModel)]="imgE"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <div class="d-grid">
+          <button class="btn btn-dark">Cargar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

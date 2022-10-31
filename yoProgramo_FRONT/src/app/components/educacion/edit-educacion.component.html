@@ -1,0 +1,45 @@
+<div class="container" id="edunuevactn">
+  <div class="row">
+    <div>
+      <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+        <div class="form-group green-border-focus">
+          <label for="nuevaEducacion">Editar educacion</label>
+          <textarea
+            class="form-control"
+            id="nombreE"
+            rows="3"
+            placeholder="Título"
+            name="nombreE"
+            [(ngModel)]="educacion.nombreE"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group green-border-focus">
+          <textarea
+            class="form-control"
+            id="descripcionE"
+            rows="3"
+            placeholder="Descripción"
+            name="descripcionE"
+            [(ngModel)]="educacion.descripcionE"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group green-border-focus">
+          <textarea
+            class="form-control"
+            id="imgE"
+            rows="3"
+            placeholder="URL de la imagen"
+            name="imgE"
+            [(ngModel)]="educacion.imgE"
+            required
+          ></textarea>
+        </div>
+        <div class="d-grid">
+          <button class="btn btn-dark">Actualizar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

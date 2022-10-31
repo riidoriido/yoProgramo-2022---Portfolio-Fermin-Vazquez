@@ -1,61 +1,32 @@
-.educacionctn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-  font-family: "Lato", sans-serif;
+#educacionctn {
   padding: 2%;
+  margin: 0% 0%;
+  width: 100%;
+  text-align: -webkit-center;
 }
 
-ul {
-  padding: 0px;
-  margin: 0%;
+.container-lg {
+  padding-bottom: 1%;
 }
 
-.instituto {
-  width: -webkit-fill-available;
+#media-title {
+  margin: 1rem 0.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.instituto img {
-  width: 50%;
+p {
+  margin: 1rem 0.2rem;
 }
 
-.list-group {
-  --bs-list-group-bg: ##edfaf7;
-}
-
-.conocimientos {
-  width: 70%;
-}
-
-.conocimientos ul {
-  margin: 5%;
-}
-.educacion-p,
-.apps {
+h4 {
   width: 100%;
 }
 
-.apps {
-  text-align: center;
+.btn-group {
+  opacity: 0.3;
 }
 
-.adobeli {
-  display: flex;
-}
-
-.adobeli li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2%;
-}
-
-.adobeli img {
-  width: 25%;
-  margin: 5%;
-}
-
-.adobeli p {
-  margin: 0%;
+#imgmedia {
+  max-width: 96px;
+  min-width: 32px;
 }
