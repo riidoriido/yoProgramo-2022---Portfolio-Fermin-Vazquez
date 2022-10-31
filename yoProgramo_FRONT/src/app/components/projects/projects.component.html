@@ -1,67 +1,46 @@
-<div id="proyectos">
-  <h5 id="titulo">Proyectos en curso</h5>
-  <div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
+<div class="" id="proyectosctn">
+  <div class="container-lg">
+    <h4>Trabajos | Proyectos</h4>
+    <button
+      class="btn btn-outline-warning btn-sm"
+      type="button"
+      routerLink="/nuevoproj/"
+      *ngIf="isLogged"
+    >
+      Crear
+    </button>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4" id="cardgroup">
+    <div class="col" *ngFor="let Proyectos of proj">
       <div class="card">
-        <img
-          src="../../../assets/proyectos/banda.jpg"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="{{ Proyectos.imgP }}" class="card-img-top" />
         <div class="card-body">
-          <h5 class="card-title">Bandas en pura</h5>
+          <h5 class="card-title">{{ Proyectos.nombreP }}</h5>
           <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            {{ Proyectos.descripcionP }}
           </p>
         </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img
-          src="../../../assets/proyectos/bosque.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Retratos en el bosque</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img
-          src="../../../assets/proyectos/morpho.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Morphogenesis</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img
-          src="../../../assets/proyectos/zine.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Zine #1</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content.
-          </p>
+        <div
+          class="btn-group btn-group-sm mx-auto"
+          role="group"
+          aria-label="Modificar"
+        >
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            routerLink="/editproj"
+            *ngIf="isLogged"
+          >
+            <i class="bi bi-pencil"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            *ngIf="isLogged"
+            (click)="borrar(Proyectos.id)"
+          >
+            <i class="bi bi-trash3"></i>
+          </button>
         </div>
       </div>
     </div>

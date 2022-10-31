@@ -1,0 +1,11 @@
+../../../assets/proyectos/banda.jpg
+Bandas en pura
+
+../../../assets/proyectos/bosque.jpg
+Retratos en el bosque
+
+../../../assets/proyectos/morpho.jpg
+Morphogenesis
+
+../../../assets/proyectos/zine.jpg
+Zine #1

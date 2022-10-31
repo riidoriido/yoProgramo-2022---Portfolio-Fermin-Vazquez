@@ -1,0 +1,13 @@
+textarea:focus {
+  border: 1px solid #8bc34a;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, 0.25);
+}
+
+#projnuevoctn {
+  padding: 2%;
+}
+
+.form-group,
+.d-grid {
+  padding: 2%;
+}

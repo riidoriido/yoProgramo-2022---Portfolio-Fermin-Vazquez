@@ -1,9 +1,30 @@
-#proyectos {
+#proyectosctn {
   padding: 2%;
-  margin: 0%;
+  margin: 0% 0%;
+  width: 100%;
+  text-align: center;
 }
 
-#titulo {
+.container-lg {
+  padding-bottom: 1%;
+}
+
+#card-title {
+  margin: 1rem 0.2rem;
   text-align: center;
-  padding: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#card-text {
+  margin: 1rem 0.2rem;
+  text-align: justify;
+}
+
+h4 {
+  width: 100%;
+}
+
+.btn-group {
+  opacity: 0.3;
+  padding: 1%;
 }

@@ -2,11 +2,12 @@
   padding: 2%;
   margin: 0% 0%;
   width: 100%;
-  text-align: -webkit-center;
 }
 
 .container-lg {
   padding-bottom: 1%;
+
+  text-align: -webkit-center;
 }
 
 #media-title {
@@ -29,4 +30,11 @@ h4 {
 #imgmedia {
   max-width: 96px;
   min-width: 32px;
+}
+
+.media {
+  border: 1px solid rgba(147, 164, 164, 0.2);
+  border-radius: 7px;
+  background: white;
+  padding: 1%;
 }
